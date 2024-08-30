@@ -12,32 +12,21 @@
 
 </head>
 
-
 <body>
 
-   <form>
-      <label>Namn</label><br>
-      <input type="text">
-      <br>
-      <input type="submit" value="Skicka">
-      <br>
-      <label>Meddelande</label><br>
-      <textarea name="meddelande" cols="45" rows="5">
-    </textarea>
-      <br>
+   <form action="calls.php" method="post">
+      <label>Name</label><br>
+      <input name="name" type="text">
+      <br><br>
+      <label>Age</label><br>
+      <input name="age" type="text"><br><br>
       <input type="submit" value="Skicka">
    </form>
-   <header>
-
-   </header>
-
-   <main>
-
-   </main>
-
-   <footer>
-
-   </footer>
+ 
 </body>
 
 </html>
+
+
+
+
