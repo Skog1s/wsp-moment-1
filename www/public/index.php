@@ -13,15 +13,19 @@
 </head>
 
 <body>
+<?php
+   for ($i = 1; $i < 5; $i += 0.1) { 
+      echo $i . "<br>";
 
-   <form action="calls.php" method="post">
-      <label>Name</label><br>
-      <input name="name" type="text">
-      <br><br>
-      <label>Age</label><br>
-      <input name="age" type="text"><br><br>
-      <input type="submit" value="Skicka">
-   </form>
+   }
+   
+   $d=1;
+   while ($d < 4.9) {
+      $d += 0.1;
+      echo $d ."<br>";
+   }
+
+?>
  
 </body>
 

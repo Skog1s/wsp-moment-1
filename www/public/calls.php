@@ -5,12 +5,9 @@
     <title>Form</title>
 </head>
 <body>
-<h1>Namn och ålder</h1>
+<h1>Används ej</h1>
 <?php
-    $name = $_POST["name"];
-    $age = $_POST["age"];
-
-    echo "Du heter ". "$name". " och din ålder är ". "$age";
+ 
 ?>
 
 </body>
