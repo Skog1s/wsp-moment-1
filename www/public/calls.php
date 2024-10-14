@@ -5,10 +5,11 @@
     <title>Form</title>
 </head>
 <body>
-<h1>Används ej</h1>
+
 <?php
  
 ?>
 
 </body>
+
 </html>

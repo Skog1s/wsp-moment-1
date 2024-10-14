@@ -14,31 +14,17 @@
 
 <body>
 <h1>Emil Skoglund</h1>
-
-<form action="calls.php" method="post">
-   <label>Förnamn</label>
-   <br>
-   <input type="text" name="name">
-   <br><br>
-   <label>Efternamn</label>
-   <br>
-   <input type="text" name="surname">
-   <br><br>
-   <label>Användarnamn</label>
-   <br>
-   <input type="text" name="username">
-   <br><br>
-   <label>Password</label>
-   <br>
-   <input type="text" name="password"> 
-   <br>
-
-   <input type="submit" value="Skicka">
-   
-
-</form>
 <?php
+   for ($i = 1; $i < 5; $i += 0.1) { 
+      echo $i . "<br>";
 
+   }
+   
+   $d=1;
+   while ($d < 4.9) {
+      $d += 0.1;
+      echo $d ."<br>";
+   }
 
 ?>
  
